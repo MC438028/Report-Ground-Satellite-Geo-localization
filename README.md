@@ -27,9 +27,9 @@ The challenge utilizes the University - 1652 as the challenge dataset. This data
 
 ## Code Repository Structure
 The code repository contains the following key components:
-model.py: Defines neural network models such as two_view_net and three_view_net.  
-utils.py: Provides utility functions for making balanced class weights, loading and saving models.  
-image_folder.py: Defines custom dataset classes for handling different types of data, like CustomData160k_sat and CustomData160k_drone.  
-test_160k.py: Used for testing the model on the test dataset, including feature extraction and result ranking.  
-demo.py: Demonstrates how to visualize the ranking results for Test 1.  
-demo_160k.py: Demonstrates how to visualize the answer.txt results (Test 2).
+* model.py: Defines neural network models such as two_view_net and three_view_net.  
+* utils.py: Provides utility functions for making balanced class weights, loading and saving models.  
+* image_folder.py: Defines custom dataset classes for handling different types of data, like CustomData160k_sat and CustomData160k_drone.  
+* test_160k.py: Used for testing the model on the test dataset, including feature extraction and result ranking.  
+* demo.py: Demonstrates how to visualize the ranking results for Test 1.  
+* demo_160k.py: Demonstrates how to visualize the answer.txt results (Test 2).
