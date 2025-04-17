@@ -268,7 +268,7 @@ if __name__ == "__main__":
     query_feature = query_feature.cuda()
     gallery_feature = gallery_feature.cuda()
 
-    save_filename = 'results_rank10.txt'
+    save_filename = 'answer.txt'
     if os.path.isfile(save_filename):
         os.remove(save_filename)
     results_rank10 = []
