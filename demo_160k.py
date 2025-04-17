@@ -42,7 +42,7 @@ def imshow(path, title=None):
 
 ######################################################################
 # 读取结果文件
-results_rank10 = np.genfromtxt('results_rank10.txt', delimiter='\t', dtype=str)
+results_rank10 = np.genfromtxt('answer.txt', delimiter='\t', dtype=str)
 
 # 获取查询图像和画廊图像的路径
 query_path, _ = image_datasets[query_name].imgs[opts.query_index]
