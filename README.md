@@ -5,11 +5,11 @@ We are excited to present the test dataset, designed for multi - weather cross -
 This year's challenge in ground - satellite geo - localization has a specific focus. It aims to match partial street images to their corresponding satellite images. By concentrating on partial views, it intends to more accurately simulate real - world scenarios. In real life, obstructions or limited sensor angles can restrict the field of view, which is often encountered during low - altitude UAV operations for navigation, search - and - rescue missions, and autonomous flight.
 The challenge utilizes the University - 1652 as the challenge dataset. This dataset offers 2,579 street images as queries and 951 gallery satellite images.
 
-## Test 1
+## Task 1
 * **Training:** Train the model on the University - 1652 training set with 3 views (Drone+Satellite+Street).
 * **Evaluation:** Evaluate University - 1652 test set to find the most similar satellite-view image to localize the target building in the satellite view.
 
-## Test 2
+## Task 2
 * **Training:** Train the model on the University - 1652 training set with 3 views (Drone+Satellite+Street).  
 * **Download:** Download the name - masked test set from the competition page (Onedrive link).  
 * **Feature Extraction:** Extract features of the downloaded name - masked test set using the model trained in the first step.  
